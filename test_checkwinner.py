@@ -1,5 +1,5 @@
 import unittest
-from game import check_winner, is_board_full, minimax, get_empty_cells, get_best_move
+from game import check_winner
 
 class testcheckwinner(unittest.TestCase):
         # Returns True if a player has three in a row horizontally
